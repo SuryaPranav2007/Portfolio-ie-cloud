@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surya Pranav Pratapam — AI Builder Portfolio</title>
+  <meta name="description" content="Portfolio of Surya Pranav Pratapam — CSE undergrad at KIIT building AI-powered tools: chess analyzers, body-controlled games and gym form coaches." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">SP<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-hello">👋 Hello, I'm</p>
+      <h1 class="hero-name">Surya Pranav Pratapam</h1>
+      <div class="hero-type">
+        <span id="typed"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        CSE Undergraduate @ KIIT · Building AI-powered tools — chess analyzers,
+        body-controlled games &amp; gym form coaches. I turn "prompting an AI"
+        into autonomous systems that plan, act &amp; collaborate.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects ⬇</a>
+        <a href="https://github.com/SuryaPranav2007" target="_blank" class="btn btn-outline">GitHub</a>
+        <a href="https://www.linkedin.com/in/surya-pranav-pratapam-7502b133b/" target="_blank" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">⌄</a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>🧠 What I Do</h3>
+        <p>
+          I'm a Computer Science undergrad at KIIT (DU), passionate about the
+          intersection of <strong>AI, computer vision and fitness tech</strong>. I design
+          and ship tools where natural language and body movement become the interface —
+          from real-time squat form analysis to a chess analysis platform built from scratch.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>🚀 What I've Done</h3>
+        <p>
+          Completed Kaggle's <strong>5-Day AI Agents: Intensive Vibe Coding Course with Google</strong>,
+          where my capstone <em>AI Form Coach</em> earned a full project write-up on Kaggle.
+          Built <strong>MouseSlip</strong> (real-time chess analysis), a body-controlled
+          <strong>Chrome Dino</strong> game, and a computer-vision <strong>squat counter</strong>.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>🎯 What's Next</h3>
+        <p>
+          I'm levelling up from "prompting an AI" to <strong>designing systems of agents</strong>
+          that plan, act and collaborate — moving from text completion to true autonomous agents,
+          with spec-driven, production-grade, observable deployments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section alt" id="skills">
+    <h2 class="section-title">Skills &amp; Tools</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">TypeScript</span>
+          <span class="tag">JavaScript</span><span class="tag">HTML/CSS</span>
+          <span class="tag">Jupyter</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>AI / ML</h3>
+        <div class="tags">
+          <span class="tag">LLMs &amp; AI Agents</span><span class="tag">Vibe Coding</span>
+          <span class="tag">Pose Estimation</span><span class="tag">Computer Vision</span>
+          <span class="tag">Kaggle</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Frameworks &amp; Tools</h3>
+        <div class="tags">
+          <span class="tag">MediaPipe</span><span class="tag">OpenCV</span>
+          <span class="tag">P5.js</span><span class="tag">Matter.js</span>
+          <span class="tag">Vercel</span><span class="tag">Git &amp; GitHub</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Domains</h3>
+        <div class="tags">
+          <span class="tag">Chess Engines</span><span class="tag">Body-Controlled Games</span>
+          <span class="tag">Fitness Tech</span><span class="tag">Agent Tooling</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-sub">Click the arrow on any project to see tech tags, live URL &amp; source code.</p>
+
+    <div class="projects-grid" id="projectsGrid"><!-- injected by JS --></div>
+
+    <h3 class="mini-title">More on GitHub</h3>
+    <div class="mini-grid" id="miniGrid"><!-- injected by JS --></div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section alt" id="experience">
+    <h2 class="section-title">Experience &amp; Certifications</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jun – Jul 2026</span>
+          <h3>5-Day AI Agents: Intensive Vibe Coding Course with Google</h3>
+          <p class="timeline-org">Kaggle</p>
+          <p>Deep dive into building autonomous AI agents over 5 days:</p>
+          <ul>
+            <li><strong>Day 1</strong> — Moving from text completion to true autonomous agents; vibecoding workflows</li>
+            <li><strong>Day 2</strong> — Agent tools &amp; interoperability: connecting agents to external APIs, code execution, agent-to-agent communication</li>
+            <li><strong>Day 3</strong> — Agent skills, long-term memory/state, context &amp; token optimization</li>
+            <li><strong>Day 4</strong> — Security, guardrails &amp; evaluation for reliable agents</li>
+            <li><strong>Day 5</strong> — Spec-driven, production-grade agent development: governed, scalable, observable deployments</li>
+          </ul>
+          <p><strong>Capstone:</strong> AI Form Coach — a computer-vision agent giving real-time biomechanics feedback, rep counting and safety alerts during workouts, with a full project write-up on Kaggle.</p>
+          <div class="timeline-links">
+            <a href="https://www.kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/new-writeup-1781966681216" target="_blank">Kaggle Write-up ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Ongoing</span>
+          <h3>Open Source &amp; Personal Projects</h3>
+          <p class="timeline-org">GitHub — SuryaPranav2007</p>
+          <p>30+ public repositories spanning AI tools, CV fitness apps and browser games — building in public and shipping consistently since 2021.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <div>
+        <h3>B.Tech — Computer Science &amp; Engineering</h3>
+        <p class="edu-org">School of Computer Engineering, KIIT (Deemed to be University)</p>
+        <p class="edu-loc">Telangana, India</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section alt" id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-sub">Have an idea for an AI tool, a collab, or just want to talk chess &amp; fitness tech? My inbox is open.</p>
+    <form class="contact-form" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+    <div class="socials">
+      <a href="https://github.com/SuryaPranav2007" target="_blank" class="social-btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/surya-pranav-pratapam-7502b133b/" target="_blank" class="social-btn">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Surya Pranav Pratapam · Built with HTML, CSS &amp; JS · <a href="#home">Back to top ↑</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
