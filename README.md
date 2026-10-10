@@ -8,7 +8,7 @@ A personal portfolio website built with HTML, CSS & JavaScript — containerized
 https://portfolioiecloud.vercel.app
 
 ## Tech Stack
-- HTML5, CSS3, JavaScript
+- HTML, CSS, JavaScript
 - Docker + nginx (Alpine)
 - GitHub + Vercel
 
